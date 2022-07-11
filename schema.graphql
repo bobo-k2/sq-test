@@ -1,0 +1,8 @@
+type Tvl @entity {
+
+  id: ID! #era number
+  
+  startedAt: Date!
+
+  tvl: BigInt!
+}
